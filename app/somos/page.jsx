@@ -1,6 +1,6 @@
 "use client";
 import MainImage from "@/components/MainImage";
-import somosImage from "@/public/actividades/actividades-sm.jpg";
+import somosImage from "@/public/actividades-sm.jpg";
 import DefaultAnimation from "@/components/DefaultAnimation";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 import Image from "next/image";
