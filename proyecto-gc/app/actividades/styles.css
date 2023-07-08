@@ -1,0 +1,46 @@
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  backface-visibility: hidden;
+  display: flex;
+  touch-action: pan-y;
+  flex-direction: row;
+  height: auto;
+}
+.embla__slide {
+  flex: 0 0 70%;
+  min-width: 0;
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  .embla__slide {
+    flex: 0 0 50%; /* Breakpoint SM slide covers 50% of the viewport */
+    margin-right: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .embla__slide {
+    flex: 0 0 30%; /* Breakpoint SM slide covers 50% of the viewport */
+    margin-right: 20px;
+  }
+}
+.embla__progress {
+  background-color: green;
+  border-color: aqua;
+  height: 0.3rem;
+  border-radius: 0.2rem;
+  bottom: 2.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
+  width: 21rem;
+  max-width: 90%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.embla__progress__bar {
+  background-color: rgb(249, 249, 249);
+  width: 100%;
+  height: 100%;
+}
