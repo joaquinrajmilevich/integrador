@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import slogan from "@/public/logoGC_slogan.webp";
 export default function Footer() {

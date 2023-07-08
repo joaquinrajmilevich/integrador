@@ -1,15 +1,16 @@
 "use client";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-const links = [
-  { name: "QUIENES SOMOS", href: "/somos" },
-  { name: "PROYECTO", href: "/proyecto" },
-  { name: "ACTIVIDADES", href: "/actividades" },
-  { name: "COLABORAR", href: "/colaborar" },
-  { name: "INSCRIPCIONES", href: "/inscripciones" },
-];
+
 export default function NavLinks() {
   const pathname = usePathname();
+  const links = [
+    { name: "QUIENES SOMOS", href: "/somos" },
+    { name: "PROYECTO", href: "/proyecto" },
+    { name: "ACTIVIDADES", href: "/actividades" },
+    { name: "COLABORAR", href: "/colaborar" },
+    { name: "INSCRIPCIONES", href: "/inscripciones" },
+  ];
   return (
     <>
       {links.map((link) => {
