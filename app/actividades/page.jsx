@@ -1,8 +1,8 @@
 "use client";
 import MainImage from "@/components/MainImage";
-import seniasImage from "@/public/actividades/senias-0-md.jpg";
-import somosImage from "@/public/actividades/actividades-sm.jpg";
-import jugandoImage from "@/public/actividades/jugando-sm.jpg";
+import seniasImage from "@/public/senias-0-md.jpg";
+import somosImage from "@/public/actividades-sm.jpg";
+import jugandoImage from "@/public/jugando-sm.jpg";
 import homeImage from "@/public/home-lg.jpg";
 import handImage from "@/public/levantando-manos-sm.jpg";
 import DefaultAnimation from "@/components/DefaultAnimation";

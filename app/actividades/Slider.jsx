@@ -6,13 +6,13 @@ import React, { useCallback, useEffect, useState } from "react";
 
 export default function Slider() {
   const sources = [
-    "/actividades/aprendiendo-sm.jpg",
-    "/actividades/jugando-1-md.jpg",
-    "/actividades/jugando-sm.jpg",
-    "/actividades/recreacion-0-md.jpg",
-    "/actividades/senias-0-md.jpg",
-    "/actividades/senias-1-md.jpg",
-    "/actividades/senias-2-md.jpg",
+    "/aprendiendo-sm.jpg",
+    "/jugando-1-md.jpg",
+    "/jugando-sm.jpg",
+    "/recreacion-0-md.jpg",
+    "/senias-0-md.jpg",
+    "/senias-1-md.jpg",
+    "/senias-2-md.jpg",
   ];
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, dragFree: true });
   const [scrollProgress, setScrollProgress] = useState(0);
