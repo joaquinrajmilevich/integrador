@@ -10,7 +10,7 @@ import SecondaryAnimation from "@/components/SecondaryAnimation";
 import Image from "next/image";
 import gc from "@/public/gc.png";
 import Axis from "@/components/Axis";
-import Slider from "./slider";
+import Slider from "./Slider";
 export default function Somos() {
   return (
     <main className="bg-white pb-4">
