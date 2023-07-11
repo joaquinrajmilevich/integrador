@@ -277,6 +277,9 @@ export default function Colabora() {
             </Link>
           </div>
         </form>
+        <form method="dialog" className="modal-backdrop">
+          <button>close</button>
+        </form>
       </dialog>
       {/* You can open the modal using ID.showModal() method */}
     </main>
