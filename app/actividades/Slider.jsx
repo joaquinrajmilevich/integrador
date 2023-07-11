@@ -15,13 +15,13 @@ export default function Slider() {
   //   "/proyectogc/senias-2-md.jpg",
   // ];
   const sources = [
-    "/aprendiendo-sm.jpg",
-    "/jugando-1-md.jpg",
-    "/jugando-sm.jpg",
-    "/recreacion-0-md.jpg",
-    "/senias-0-md.jpg",
-    "/senias-1-md.jpg",
-    "/senias-2-md.jpg",
+    "@/public/aprendiendo-sm.jpg",
+    "@/public/jugando-1-md.jpg",
+    "@/public/jugando-sm.jpg",
+    "@/public/recreacion-0-md.jpg",
+    "@/public/senias-0-md.jpg",
+    "@/public/senias-1-md.jpg",
+    "@/public/senias-2-md.jpg",
   ];
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, dragFree: true });
   const [scrollProgress, setScrollProgress] = useState(0);
