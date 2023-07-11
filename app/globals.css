@@ -68,5 +68,15 @@ body {
 }
 .radio input:checked ~ label {
   background-color: rgb(51, 65, 85);
-  color: white;
+}
+
+input,
+select,
+textarea {
+  background-color: rgb(255, 255, 255);
+}
+input,
+select,
+textarea:placeholder {
+  color: rgb(0, 0, 0);
 }

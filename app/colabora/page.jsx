@@ -220,7 +220,7 @@ export default function Colabora() {
           <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
             ✕
           </button>
-          <div className="flex flex-row py-3 mx-16 gap-3 items-center justify-between h-20 ">
+          <div className="flex flex-row py-3 sm:mx-16 gap-3 items-center justify-between h-20 ">
             <Link
               target="_blank"
               className="flex w-20"
