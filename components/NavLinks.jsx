@@ -12,11 +12,11 @@ export default function NavLinks({ path }) {
   //   { name: "INSCRIPCIONES", href: "/inscripciones" },
   // ];
   const links = [
-    { name: "QUIENES SOMOS", href: "/integrador/somos" },
-    { name: "PROYECTO", href: "/integrador/proyecto" },
-    { name: "ACTIVIDADES", href: "/integrador/actividades" },
-    { name: "COLABORA", href: "/integrador/colabora" },
-    { name: "INSCRIPCIONES", href: "/integrador/inscripciones" },
+    { name: "QUIENES SOMOS", href: "/somos" },
+    { name: "PROYECTO", href: "/proyecto" },
+    { name: "ACTIVIDADES", href: "/actividades" },
+    { name: "COLABORA", href: "/colabora" },
+    { name: "INSCRIPCIONES", href: "/inscripciones" },
   ];
   return (
     <>
