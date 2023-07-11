@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/integrador",
-  assetPrefix: "/integrador/",
+  basePath: "/proyectogc",
+  assetPrefix: "/proyectogc",
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import NavLinks from "../components/NavLinks";
@@ -8,16 +8,20 @@ export default function Navbar() {
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
-
   return (
-    <header>
-      <nav className="bg-white">
+    <header className="sticky top-0 z-50 ">
+      <nav className="bg-white shadow-md">
         <div className="w-full mx-auto px-8 sm:px-6 md:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
               <div className="flex-s hrink-0">
-                <Link href="/">
-                  <Image src="/logoGC175x178.png" width={50} height={54} />
+                <Link href={"/home"}>
+                  <Image
+                    src="/integrador/logoGC175x178.png"
+                    // src="/logoGC175x178.png"
+                    width={50}
+                    height={54}
+                  />
                 </Link>
               </div>
               <div className="hidden md:block">

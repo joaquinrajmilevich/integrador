@@ -1,21 +1,15 @@
 "use client";
 import MainImage from "@/components/MainImage";
 import seniasImage from "@/public/senias-0-md.jpg";
-import somosImage from "@/public/actividades-sm.jpg";
+import activadesImage from "@/public/actividades-lg.jpg";
 import jugandoImage from "@/public/jugando-sm.jpg";
-import homeImage from "@/public/home-lg.jpg";
-import handImage from "@/public/levantando-manos-sm.jpg";
-import DefaultAnimation from "@/components/DefaultAnimation";
-import SecondaryAnimation from "@/components/SecondaryAnimation";
 import Image from "next/image";
-import gc from "@/public/gc.png";
-import Axis from "@/components/Axis";
 import Slider from "./Slider";
 export default function Somos() {
   return (
     <main className="bg-white pb-4">
       <section className="relative h-[400px] mb-3 ">
-        <MainImage srcImg={somosImage} />
+        <MainImage srcImg={activadesImage} />
       </section>
       <section className="text-black mx-auto xl:max-w-7xl lg:max-w-4xl md:max-w-3xl sm:max-w-lg">
         <div className="flex flex-wrap mb-4 -mx-4">
@@ -28,7 +22,9 @@ export default function Somos() {
             <div className="">
               <h1 className="font-semibold text-3xl mb-1">Actividad</h1>
               <h1 className="font-semibold text-3xl">
-                <span className="text-white bg-blue-500 pt-1">pedagógica</span>
+                <span className="text-white bg-blue-secondary rounded-md px-4">
+                  pedagógica
+                </span>
               </h1>
               <p>
                 Creemos que la educación es el medio para que cada persona
@@ -45,7 +41,10 @@ export default function Somos() {
             </div>
           </div>
         </div>
-        <Slider></Slider>
+        <div className="rounded-md bg-dark-primary pb-6 pt-3 shadow-lg px-10">
+          <Slider></Slider>
+        </div>
+
         <div className="flex flex-wrap mt-4 mb-4 -mx-4">
           <Image
             className="w-full lg:w-1/3 rounded-lg px-4 hidden lg:block object-cover h-56"
@@ -56,7 +55,9 @@ export default function Somos() {
             <div className="">
               <h1 className="font-semibold text-3xl mb-1">Deporte y</h1>
               <h1 className="font-semibold text-3xl">
-                <span className="text-white bg-blue-500 pt-1">Recreación</span>
+                <span className="text-white bg-blue-secondary rounded-md px-4">
+                  Recreación
+                </span>
               </h1>
               <p>
                 El deporte es una de las mejores escuelas de vida y tienen el

@@ -1,6 +1,7 @@
 "use client";
 import MainImage from "@/components/MainImage";
-import somosImage from "@/public/actividades-sm.jpg";
+import somosImage from "@/public/actividades-lg.jpg";
+
 import DefaultAnimation from "@/components/DefaultAnimation";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 import Image from "next/image";
@@ -14,7 +15,7 @@ export default function Somos() {
           <DefaultAnimation>
             <div className="md:self-start  relative text-center ms-8 mb-2 w-[60vw] mt-8">
               <h1 className="text-5xl font-semibold py-1 mb-4">Misión</h1>
-              <p className="text-base px-8 py-5 bg-blue-600 leading-7">
+              <p className="text-base px-8 py-5 bg-blue-secondary rounded-full leading-7">
                 promover el desarrollo integral de los niños, niñas y
                 adolescentes a través de la educación donde trabajamos
               </p>
@@ -33,7 +34,7 @@ export default function Somos() {
         <div className="flex flex-wrap text-center -mx-4">
           <div className="w-full min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
             <SecondaryAnimation x={200}>
-              <h3 className="text-3xl font-semibold py-1 bg-green-600 mb-2">
+              <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
                 Educación
               </h3>
             </SecondaryAnimation>
@@ -44,7 +45,7 @@ export default function Somos() {
             </p>
           </div>
           <div className="w-full min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
-            <h3 className="text-3xl font-semibold py-1 bg-green-600 mb-2">
+            <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
               Excelencia
             </h3>
             <p className="text-black">
@@ -55,7 +56,7 @@ export default function Somos() {
           </div>
           <div className="w-full min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
             <SecondaryAnimation x={-200}>
-              <h3 className="text-3xl font-semibold py-1 bg-green-600 mb-2">
+              <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
                 Transparencia
               </h3>
             </SecondaryAnimation>
@@ -67,7 +68,7 @@ export default function Somos() {
           </div>
           <div className="w-full min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
             <SecondaryAnimation x={200}>
-              <h3 className="text-3xl font-semibold py-1 bg-green-600 mb-2">
+              <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
                 Empatía
               </h3>
             </SecondaryAnimation>
@@ -78,7 +79,7 @@ export default function Somos() {
             </p>
           </div>
           <div className="w-full min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
-            <h3 className="text-3xl font-semibold py-1 bg-green-600 mb-2">
+            <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
               Equidad
             </h3>
             <p className="text-black">
@@ -88,7 +89,7 @@ export default function Somos() {
           </div>
           <div className="w-full min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
             <SecondaryAnimation x={-200}>
-              <h3 className="text-3xl font-semibold py-1 bg-green-600 mb-2">
+              <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
                 Profesionalismo
               </h3>
             </SecondaryAnimation>
@@ -102,7 +103,7 @@ export default function Somos() {
             <Image src={gc} className="w-24 hidden md:block" />
           </div>
           <div className="w-full md:w-1/3 px-3 pb-6">
-            <h3 className="text-3xl font-semibold py-1 bg-green-600 mb-2">
+            <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
               Desarrollo integral
             </h3>
             <p className="text-black">

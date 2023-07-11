@@ -2,10 +2,8 @@
 import MainImage from "@/components/MainImage";
 import proyectoImage from "@/public/proyecto-header-md.jpg";
 import handImage from "@/public/levantando-manos-sm.jpg";
-import DefaultAnimation from "@/components/DefaultAnimation";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 import Image from "next/image";
-import gc from "@/public/gc.png";
 import Axis from "@/components/Axis";
 
 export default function Somos() {
@@ -40,7 +38,7 @@ export default function Somos() {
           <SecondaryAnimation x={-400}>
             <div className="flex flex-wrap mb-4 -mx-4">
               <Image
-                className="w-full lg:w-1/3 rounded-lg px-4 hidden lg:block"
+                className="w-full lg:w-1/3 px-4 hidden lg:block"
                 src={handImage}
               ></Image>
               <div className="w-full lg:w-2/3 px-4">

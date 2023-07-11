@@ -3,7 +3,6 @@ import Image from "next/image";
 import homeImage from "@/public/home-lg.jpg";
 import gc from "@/public/gc.png";
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
 import Axis from "@/components/Axis";
 import DefaultAnimation from "@/components/DefaultAnimation";
 import MainImage from "@/components/MainImage";
@@ -13,17 +12,15 @@ export default function Home() {
       <section className="relative flex flex-col justify-end lg:items-end sm:mx-auto h-[400px] mb-3">
         <MainImage srcImg={homeImage}>
           <DefaultAnimation>
-            <div className="md:self-end sm:self-center relative text-center mb-8 md:me-6 text-white ">
-              <h2 className="text-3xl mx-auto font-semibold py-3 bg-green-600 w-[400px]">
-                Trabajamos
-              </h2>
-              <p className="backdrop-blur-[2px] py-4">por una gran causa</p>
+            <div className="md:self-end mx-auto sm:self-center relative py-3 text-center mb-8 md:me-6 text-white bg-green-secondary rounded-lg sm:w-[400px]">
+              <h2 className="text-3xl font-semibold ">Trabajamos</h2>
+              <p className="">por una gran causa</p>
             </div>
           </DefaultAnimation>
         </MainImage>
       </section>
 
-      <section className="flex flex-row justify-center mb-16 xl:gap-32 md:gap-6">
+      <section className="flex flex-row justify-center gap-6 ">
         <motion.div
           initial={{ opacity: 0, y: -100, x: 100 }}
           animate={{
@@ -36,13 +33,13 @@ export default function Home() {
             duration: 1,
             ease: "easeInOut",
           }}
-          className="w-24 max-md:hidden self-center"
+          className="w-24 max-md:hidden self-center -ms-28"
         >
           <Image src={gc} />
         </motion.div>
-        <div className="text-2xl text-center lg:w-[55%] md:w-[65%]">
+        <div className="text-2xl text-center lg:w-[55%] md:w-[65%] mb-6">
           <h3 className="my-2 ">GC es una organización sin fines de lucro</h3>
-          <h3 className="mb-2 bg-blue-500 text-white">
+          <h3 className="mb-2 py-2 bg-blue-secondary rounded-md text-white">
             que trabaja para promover el desarrollo integral de niños, niñas y
             adolescentes a través de la educación
           </h3>
@@ -52,15 +49,19 @@ export default function Home() {
         </div>
       </section>
       <DefaultAnimation>
-        <div className="flex flex-row justify-center items-center text-center text-2xl font-semibold max-sm:flex-col xl:gap-56 lg:gap-32">
-          <Axis width="200px" />
+        <div className="w-fit mx-auto rounded-md bg-slate-200 pb-6 pt-3 shadow-lg">
+          <div className="flex flex-row justify-center items-center text-center text-2xl font-semibold max-sm:flex-col sm:gap-8">
+            <Axis width="200px" />
+          </div>
         </div>
       </DefaultAnimation>
 
-      <section className="flex flex-col justify-center items-center mt-14 mb-2">
-        <h1 className="text-center font-semibold text-3xl mb-4">Proyecto GC</h1>
+      <section className="flex flex-col justify-center items-center mt-14">
+        <h1 className="text-center font-semibold text-3xl mb-4 drop-shadow-lg">
+          Proyecto GC
+        </h1>
         <iframe
-          className="w-[68vw] h-[315px]"
+          className="w-[68vw] h-[315px] rounded-md mb-4"
           src="https://www.youtube.com/embed/QHtjlg1BU0s?controls=0"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

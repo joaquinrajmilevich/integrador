@@ -25,3 +25,48 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.modal-button {
+  background: linear-gradient(to right, #70bf44 50%, #e2e8f0 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+.modal-button:hover {
+  background-position: left bottom;
+}
+
+.modal-button-reverse {
+  background: linear-gradient(to right, #e2e8f0 50%, #70bf44 50%);
+  background-size: 200% 100%;
+  transition: all 0.5s ease-out;
+  background-position: left bottom;
+}
+.modal-button-down {
+  background: linear-gradient(to top, #e2e8f0 50%, #70bf44 50%);
+  background-size: 200% 200%;
+  background-position: bottom;
+  transition: all 0.5s ease-out;
+}
+.modal-button-down:hover {
+  background-size: 200% 200%;
+  background-position: top;
+}
+.modal-button-reverse:hover {
+  background-position: right bottom;
+}
+.basic-input {
+  border-color: rgb(209 213 219);
+}
+.basic-input:focus {
+  outline-color: #9ca3af;
+}
+.radio input ~ label {
+  background-color: rgb(100, 116, 139);
+  color: white;
+  cursor: pointer;
+}
+.radio input:checked ~ label {
+  background-color: rgb(51, 65, 85);
+  color: white;
+}

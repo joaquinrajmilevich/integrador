@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-slate-700">
       <div className="flex flex-row justify-center text-white py-10 gap-7 mx-16">
         <div className="flex flex-col w-[50vw]">
-          <h4 className="text-2xl mx-auto font-semibold py-2 bg-green-600 w-full ps-3 mb-3">
+          <h4 className="text-2xl mx-auto font-semibold py-2 bg-green-secondary rounded-xl w-full ps-3 mb-3">
             Escribinos
           </h4>
           <ul className="ps-10">
@@ -15,7 +15,7 @@ export default function Footer() {
             <li>Provincia de Buenos Aires</li>
             <li>Tel. (54)5277 0815</li>
             <li>info@proyectogc.org</li>
-            <Image src={slogan} className="bg-white" />
+            <Image src={slogan} className="bg-white rounded-2xl" />
           </ul>
         </div>
         <div className="flex flex-col w-[50vw]">
@@ -53,7 +53,7 @@ export default function Footer() {
             </div>
             <button
               type="submit"
-              className="bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700 w-20"
+              className="bg-blue-secondary px-4 py-2 rounded-md hover:bg-blue-accent w-20"
             >
               Enviar
             </button>

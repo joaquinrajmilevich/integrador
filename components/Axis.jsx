@@ -3,7 +3,6 @@ import Image from "next/image";
 import growthIcon from "@/public/wireframe-07.svg";
 import knowIcon from "@/public/wireframe-06.svg";
 import teamIcon from "@/public/wireframe-08.svg";
-import DefaultAnimation from "@/components/DefaultAnimation";
 
 export default function Axis({ width }) {
   return (

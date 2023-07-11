@@ -10,6 +10,7 @@ export default function MainImage({ children = "", srcImg }) {
         style={{
           objectFit: "cover",
         }}
+        quality={100}
       />
       {children}
     </div>

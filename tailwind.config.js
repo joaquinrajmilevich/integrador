@@ -15,7 +15,17 @@ module.exports = {
       boxShadow: {
         "3xl": "3px 3px 25px -5px rgba(0, 0, 0, 0.3)",
       },
+      colors: {
+        "dark-primary": "#2C3E50",
+        "blue-secondary": "#3093fc",
+        "green-secondary": "#70bf44",
+        "orange-secondary": "#F39C12",
+        "lgray-neutral": "#F5F5F5",
+        "dgray-neutral": "#333333",
+        "blue-accent": "#306dfc",
+        "green-accent": "#69b340",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

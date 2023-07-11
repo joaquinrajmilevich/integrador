@@ -5,6 +5,15 @@ import "./styles.css";
 import React, { useCallback, useEffect, useState } from "react";
 
 export default function Slider() {
+  // const sources = [
+  //   "/proyectogc/aprendiendo-sm.jpg",
+  //   "/proyectogc/jugando-1-md.jpg",
+  //   "/proyectogc/jugando-sm.jpg",
+  //   "/proyectogc/recreacion-0-md.jpg",
+  //   "/proyectogc/senias-0-md.jpg",
+  //   "/proyectogc/senias-1-md.jpg",
+  //   "/proyectogc/senias-2-md.jpg",
+  // ];
   const sources = [
     "/aprendiendo-sm.jpg",
     "/jugando-1-md.jpg",

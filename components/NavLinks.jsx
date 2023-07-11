@@ -2,27 +2,33 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-export default function NavLinks() {
+export default function NavLinks({ path }) {
   const pathname = usePathname();
+  // const links = [
+  //   { name: "QUIENES SOMOS", href: "/somos" },
+  //   { name: "PROYECTO", href: "/proyecto" },
+  //   { name: "ACTIVIDADES", href: "/actividades" },
+  //   { name: "COLABORA", href: "/colabora" },
+  //   { name: "INSCRIPCIONES", href: "/inscripciones" },
+  // ];
   const links = [
-    { name: "QUIENES SOMOS", href: "/somos" },
-    { name: "PROYECTO", href: "/proyecto" },
-    { name: "ACTIVIDADES", href: "/actividades" },
-    { name: "COLABORAR", href: "/colaborar" },
-    { name: "INSCRIPCIONES", href: "/inscripciones" },
+    { name: "QUIENES SOMOS", href: "/integrador/somos" },
+    { name: "PROYECTO", href: "/integrador/proyecto" },
+    { name: "ACTIVIDADES", href: "/integrador/actividades" },
+    { name: "COLABORA", href: "/integrador/colabora" },
+    { name: "INSCRIPCIONES", href: "/integrador/inscripciones" },
   ];
   return (
     <>
       {links.map((link) => {
-        const isActive = pathname.startsWith(link.href);
-        console.log(pathname);
+        const isActive = pathname.includes(link.href);
         return (
           <Link
             href={link.href}
             key={link.name}
-            className={isActive ? "text-gray-800" : "text-gray-400"}
+            className={isActive ? "text-slate-800" : "text-slate-400"}
           >
-            <div className=" hover:text-gray-800 x-3 py-2 rounded-md text-md font-medium">
+            <div className=" hover:text-slate-800 x-3 py-2 rounded-md text-md font-semibold">
               {link.name}
             </div>
           </Link>
