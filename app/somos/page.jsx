@@ -1,10 +1,8 @@
 "use client";
 import MainImage from "@/components/MainImage";
-import somosImage from "@/public/actividades-lg.jpg";
 import DefaultAnimation from "@/components/DefaultAnimation";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 import Image from "next/image";
-import gc from "@/public/gc.png";
 import Images from "@/components/Images";
 export default function Somos() {
   return (

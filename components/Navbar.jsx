@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import NavLinks from "../components/NavLinks";
+import logo from "@/public/logoGC175x178.png";
 export default function Navbar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
@@ -16,12 +17,7 @@ export default function Navbar() {
             <div className="flex items-center">
               <div className="flex-s hrink-0">
                 <Link href={"/home"}>
-                  <Image
-                    // src="/integrador/logoGC175x178.png"
-                    src="/logoGC175x178.png"
-                    width={50}
-                    height={54}
-                  />
+                  <Image src={logo} width={50} height={54} />
                 </Link>
               </div>
               <div className="hidden md:block">

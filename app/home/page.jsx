@@ -1,7 +1,5 @@
 "use client";
 import Image from "next/image";
-import homeImage from "@/public/home-lg.jpg";
-import gc from "@/public/gc.png";
 import { motion } from "framer-motion";
 import Axis from "@/components/Axis";
 import DefaultAnimation from "@/components/DefaultAnimation";

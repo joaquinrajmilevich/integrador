@@ -4,13 +4,6 @@ import Link from "next/link";
 
 export default function NavLinks({ path }) {
   const pathname = usePathname();
-  // const links = [
-  //   { name: "QUIENES SOMOS", href: "/somos" },
-  //   { name: "PROYECTO", href: "/proyecto" },
-  //   { name: "ACTIVIDADES", href: "/actividades" },
-  //   { name: "COLABORA", href: "/colabora" },
-  //   { name: "INSCRIPCIONES", href: "/inscripciones" },
-  // ];
   const links = [
     { name: "QUIENES SOMOS", href: "/somos" },
     { name: "PROYECTO", href: "/proyecto" },

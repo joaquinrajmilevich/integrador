@@ -1,7 +1,5 @@
 "use client";
 import MainImage from "@/components/MainImage";
-import proyectoImage from "@/public/proyecto-header-md.jpg";
-import handImage from "@/public/levantando-manos-sm.jpg";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 import Image from "next/image";
 import Axis from "@/components/Axis";

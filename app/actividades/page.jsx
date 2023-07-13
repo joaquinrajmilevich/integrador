@@ -1,8 +1,5 @@
 "use client";
 import MainImage from "@/components/MainImage";
-import seniasImage from "@/public/senias-0-md.jpg";
-import activadesImage from "@/public/actividades-lg.jpg";
-import jugandoImage from "@/public/jugando-sm.jpg";
 import Image from "next/image";
 import Slider from "./Slider";
 import Images from "@/components/Images";

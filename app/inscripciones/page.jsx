@@ -1,7 +1,5 @@
 "use client";
 import Image from "next/image";
-import inscripcionesImage from "@/public/aplaudiendo.jpg";
-import gc from "@/public/gc.png";
 import DropDown from "@/components/Dropdown";
 import Images from "@/components/Images";
 export default function Inscripciones() {

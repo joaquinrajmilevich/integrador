@@ -14,15 +14,6 @@ export default function Slider() {
     Images.senias1md,
     Images.senias2md,
   ];
-  // const sources = [
-  //   "/integrador/aprendiendo-sm.jpg",
-  //   "/integrador/jugando-1-md.jpg",
-  //   "/integrador/jugando-sm.jpg",
-  //   "/integrador/recreacion-0-md.jpg",
-  //   "/integrador/senias-0-md.jpg",
-  //   "/integrador/senias-1-md.jpg",
-  //   "/integrador/senias-2-md.jpg",
-  // ];
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, dragFree: true });
   const [scrollProgress, setScrollProgress] = useState(0);
   const onScroll = useCallback((emblaApi) => {

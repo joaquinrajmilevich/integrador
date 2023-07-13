@@ -1,5 +1,4 @@
 "use client";
-import homeImage from "@/public/donar-lg.jpg";
 import { motion } from "framer-motion";
 import DefaultAnimation from "@/components/DefaultAnimation";
 import MainImage from "@/components/MainImage";
@@ -280,7 +279,6 @@ export default function Colabora() {
           <button>close</button>
         </form>
       </dialog>
-      {/* You can open the modal using ID.showModal() method */}
     </main>
   );
 }
