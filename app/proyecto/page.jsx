@@ -5,12 +5,12 @@ import handImage from "@/public/levantando-manos-sm.jpg";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 import Image from "next/image";
 import Axis from "@/components/Axis";
-
+import Images from "@/components/Images";
 export default function Somos() {
   return (
     <main className="bg-white pb-4 overflow-hidden">
       <section className="relative h-[400px] mb-12">
-        <MainImage srcImg={proyectoImage} />
+        <MainImage srcImg={Images.proyectoheadermd} />
       </section>
       <section className="text-black mx-auto xl:max-w-7xl lg:max-w-5xl md:max-w-2xl sm:max-w-lg">
         <SecondaryAnimation x={400}>
@@ -39,7 +39,7 @@ export default function Somos() {
             <div className="flex flex-wrap mb-4 -mx-4">
               <Image
                 className="w-full lg:w-1/3 px-4 hidden lg:block"
-                src={handImage}
+                src={Images.levantandomanossm}
               ></Image>
               <div className="w-full lg:w-2/3 px-4">
                 <div className="mb-16 pt-6">

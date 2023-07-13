@@ -17,8 +17,8 @@ export default function Navbar() {
               <div className="flex-s hrink-0">
                 <Link href={"/home"}>
                   <Image
-                    src="/integrador/logoGC175x178.png"
-                    // src="/logoGC175x178.png"
+                    // src="/integrador/logoGC175x178.png"
+                    src="/logoGC175x178.png"
                     width={50}
                     height={54}
                   />
@@ -82,17 +82,6 @@ export default function Navbar() {
             <NavLinks />
           </div>
         </div>
-        {/* {isMenuOpen && (
-      <div className="md:hidden " id="mobile-menu">
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <NavLink href="/">QUIENES SOMOS</NavLink>
-          <NavLink href="/">PROYECTO</NavLink>
-          <NavLink href="/">ACTIVIDADES</NavLink>
-          <NavLink href="/">COLABORAR</NavLink>
-          <NavLink href="/">INSCRIPCIONES</NavLink>
-        </div>
-      </div>
-    )} */}
       </nav>
     </header>
   );

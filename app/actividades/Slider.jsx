@@ -3,26 +3,26 @@ import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import "./styles.css";
 import React, { useCallback, useEffect, useState } from "react";
-
+import Images from "@/components/Images";
 export default function Slider() {
-  // const sources = [
-  //   "/proyectogc/aprendiendo-sm.jpg",
-  //   "/proyectogc/jugando-1-md.jpg",
-  //   "/proyectogc/jugando-sm.jpg",
-  //   "/proyectogc/recreacion-0-md.jpg",
-  //   "/proyectogc/senias-0-md.jpg",
-  //   "/proyectogc/senias-1-md.jpg",
-  //   "/proyectogc/senias-2-md.jpg",
-  // ];
   const sources = [
-    "/integrador/aprendiendo-sm.jpg",
-    "/integrador/jugando-1-md.jpg",
-    "/integrador/jugando-sm.jpg",
-    "/integrador/recreacion-0-md.jpg",
-    "/integrador/senias-0-md.jpg",
-    "/integrador/senias-1-md.jpg",
-    "/integrador/senias-2-md.jpg",
+    Images.aprendiendosm,
+    Images.jugando1md,
+    Images.jugandosm,
+    Images.recreacion0md,
+    Images.senias0md,
+    Images.senias1md,
+    Images.senias2md,
   ];
+  // const sources = [
+  //   "/integrador/aprendiendo-sm.jpg",
+  //   "/integrador/jugando-1-md.jpg",
+  //   "/integrador/jugando-sm.jpg",
+  //   "/integrador/recreacion-0-md.jpg",
+  //   "/integrador/senias-0-md.jpg",
+  //   "/integrador/senias-1-md.jpg",
+  //   "/integrador/senias-2-md.jpg",
+  // ];
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, dragFree: true });
   const [scrollProgress, setScrollProgress] = useState(0);
   const onScroll = useCallback((emblaApi) => {

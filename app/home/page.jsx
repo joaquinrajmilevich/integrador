@@ -6,11 +6,12 @@ import { motion } from "framer-motion";
 import Axis from "@/components/Axis";
 import DefaultAnimation from "@/components/DefaultAnimation";
 import MainImage from "@/components/MainImage";
+import Images from "@/components/Images";
 export default function Home() {
   return (
     <main className="bg-white text-black">
       <section className="relative flex flex-col justify-end lg:items-end sm:mx-auto h-[400px] mb-3">
-        <MainImage srcImg={homeImage}>
+        <MainImage srcImg={Images.homelg}>
           <DefaultAnimation>
             <div className="md:self-end mx-auto sm:self-center relative py-3 text-center mb-8 md:me-6 text-white bg-green-secondary rounded-lg sm:w-[400px]">
               <h2 className="text-3xl font-semibold ">Trabajamos</h2>
@@ -35,7 +36,7 @@ export default function Home() {
           }}
           className="w-24 max-md:hidden self-center -ms-28"
         >
-          <Image src={gc} />
+          <Image src={Images.gc} />
         </motion.div>
         <div className="text-2xl text-center lg:w-[55%] md:w-[65%] mb-6">
           <h3 className="my-2 ">GC es una organización sin fines de lucro</h3>

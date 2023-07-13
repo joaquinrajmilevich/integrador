@@ -4,14 +4,13 @@ import { motion } from "framer-motion";
 import DefaultAnimation from "@/components/DefaultAnimation";
 import MainImage from "@/components/MainImage";
 import ModalButton from "@/components/ModalButton";
-import money from "@/public/money-management.png";
-import Image from "next/image";
 import Link from "next/link";
+import Images from "@/components/Images";
 export default function Colabora() {
   return (
     <main className="bg-white text-black">
       <section className="relative flex flex-col justify-center sm:items-end h-[300px] mb-3">
-        <MainImage srcImg={homeImage}>
+        <MainImage srcImg={Images.donarlg}>
           <DefaultAnimation>
             <div className="sm:self-end self-center relative py-3 text-center mb-8 sm:me-20 mx-4 text-white bg-green-secondary rounded-lg sm:w-[400px]">
               <h1 className="text-3xl font-semibold ">Colabora con nosotros</h1>

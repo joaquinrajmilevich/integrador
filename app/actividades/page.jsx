@@ -5,17 +5,18 @@ import activadesImage from "@/public/actividades-lg.jpg";
 import jugandoImage from "@/public/jugando-sm.jpg";
 import Image from "next/image";
 import Slider from "./Slider";
+import Images from "@/components/Images";
 export default function Somos() {
   return (
     <main className="bg-white pb-4">
       <section className="relative h-[400px] mb-3 ">
-        <MainImage srcImg={activadesImage} />
+        <MainImage srcImg={Images.actividadeslg} />
       </section>
       <section className="text-black mx-auto xl:max-w-7xl lg:max-w-4xl md:max-w-3xl sm:max-w-lg">
         <div className="flex flex-wrap mb-4 -mx-4">
           <Image
             className="w-full lg:w-1/3 rounded-lg px-4 hidden lg:block object-cover h-56"
-            src={seniasImage}
+            src={Images.senias0md}
             alt="sadas"
           ></Image>
           <div className="w-full lg:w-2/3 px-4">
@@ -48,7 +49,7 @@ export default function Somos() {
         <div className="flex flex-wrap mt-4 mb-4 -mx-4">
           <Image
             className="w-full lg:w-1/3 rounded-lg px-4 hidden lg:block object-cover h-56"
-            src={jugandoImage}
+            src={Images.jugandosm}
             alt="sadas"
           ></Image>
           <div className="w-full lg:w-2/3 px-4">

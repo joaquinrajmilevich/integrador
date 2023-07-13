@@ -3,7 +3,7 @@ import Image from "next/image";
 import inscripcionesImage from "@/public/aplaudiendo.jpg";
 import gc from "@/public/gc.png";
 import DropDown from "@/components/Dropdown";
-
+import Images from "@/components/Images";
 export default function Inscripciones() {
   return (
     <main className="bg-white text-black ">
@@ -23,7 +23,7 @@ export default function Inscripciones() {
           </div>
 
           <Image
-            src={inscripcionesImage}
+            src={Images.aplaudiendo}
             className="hidden sm:block rounded-b-xl"
           ></Image>
         </div>
@@ -33,7 +33,7 @@ export default function Inscripciones() {
               Para comenzar el proceso de inscripción deben completar el
               siguiente formulario
             </h2>
-            <Image src={gc} className="w-20"></Image>
+            <Image src={Images.gc} className="w-20"></Image>
           </div>
           <form className="flex flex-col gap-1">
             <div className="mb-3 flex flex-col gap-2">
