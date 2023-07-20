@@ -8,6 +8,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Proyecto GC</title>
+        <meta name="home"></meta>
       </head>
       <body className={font.className}>{children}</body>
     </html>
