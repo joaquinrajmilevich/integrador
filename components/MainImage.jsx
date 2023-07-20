@@ -11,6 +11,7 @@ export default function MainImage({ children = "", srcImg }) {
           objectFit: "cover",
         }}
         quality={100}
+        priority={true}
       />
       {children}
     </div>
