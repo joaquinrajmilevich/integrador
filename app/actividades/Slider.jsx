@@ -37,6 +37,7 @@ export default function Slider() {
           width={400}
           height={300}
           priority={true}
+          quality={65}
         />
       </div>
     ));
