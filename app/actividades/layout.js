@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Proyecto GC</title>
+        <title>Actividades / ProyectoGC</title>
         <meta name="description" content="actividades" />
       </head>
       <body className={font.className}>
