@@ -1,13 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
-export default function SecondaryAnimation({ children, x }) {
+export default function SecondaryAnimation({ children, x, y, time = 0.2 }) {
   return (
     <motion.div
-      initial={{ opacity: 0, x }}
-      animate={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0.5, x, y }}
+      animate={{ opacity: 1, x: 0, y: 0 }}
       transition={{
-        duration: 0.5,
-        ease: [0, 0.1, 0.7, 1.01],
+        duration: time,
+        ease: [0, 0.4, 0.85, 1.01],
       }}
     >
       {children}

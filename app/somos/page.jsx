@@ -9,15 +9,17 @@ export default function Somos() {
     <main className="bg-white text-white pb-4">
       <section className="relative flex flex-col justify-center  items-center sm:items-start sm:mx-auto h-[400px] mb-3">
         <MainImage srcImg={Images.actividadeslg}>
-          <DefaultAnimation>
-            <div className="md:self-start  relative text-center ms-8 mb-2 w-[60vw] mt-8">
-              <h1 className="text-5xl font-semibold py-1 mb-4">Misión</h1>
-              <p className="text-base px-8 py-5 bg-blue-secondary rounded-full leading-7">
-                promover el desarrollo integral de los niños, niñas y
-                adolescentes a través de la educación donde trabajamos
-              </p>
-            </div>
-          </DefaultAnimation>
+          <div className="md:self-start  relative text-center ms-8 mb-2 w-[60vw] mt-8">
+            <h1 className="text-5xl font-semibold mb-4 ">
+              <span className="bg-green-secondary rounded-xl py-1 px-4">
+                Misión
+              </span>
+            </h1>
+            <p className="text-base px-8 py-5 bg-blue-secondary rounded-xl leading-7">
+              promover el desarrollo integral de los niños, niñas y adolescentes
+              a través de la educación donde trabajamos
+            </p>
+          </div>
         </MainImage>
       </section>
       <section className="md:px-6 px-0 mx-auto overflow:hidden xl:max-w-7xl lg:max-w-4xl md:max-w-3xl sm:max-w-lg">
@@ -34,7 +36,7 @@ export default function Somos() {
         </div>
         <div className="flex flex-wrap text-center -mx-4">
           <div className="w-full min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
-            <SecondaryAnimation x={200}>
+            <SecondaryAnimation x={200} time={0.4}>
               <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
                 Educación
               </h3>
@@ -56,7 +58,7 @@ export default function Somos() {
             </p>
           </div>
           <div className="w-full min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
-            <SecondaryAnimation x={-200}>
+            <SecondaryAnimation x={-200} time={0.4}>
               <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
                 Transparencia
               </h3>
@@ -68,7 +70,7 @@ export default function Somos() {
             </p>
           </div>
           <div className="w-full min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
-            <SecondaryAnimation x={200}>
+            <SecondaryAnimation x={200} time={0.4}>
               <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
                 Empatía
               </h3>
@@ -89,7 +91,7 @@ export default function Somos() {
             </p>
           </div>
           <div className="w-full min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
-            <SecondaryAnimation x={-200}>
+            <SecondaryAnimation x={-200} time={0.4}>
               <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
                 Profesionalismo
               </h3>

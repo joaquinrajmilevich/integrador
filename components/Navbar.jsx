@@ -30,7 +30,6 @@ export default function Navbar() {
                     aria-label="Instagram"
                   >
                     <svg
-                      whileHover={{ scale: 0.7, rotate: 25 }}
                       xmlns="http://www.w3.org/2000/svg"
                       width="30"
                       height="30"

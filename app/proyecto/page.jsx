@@ -11,7 +11,7 @@ export default function Somos() {
         <MainImage srcImg={Images.proyectoheadermd} />
       </section>
       <section className="text-black mx-auto xl:max-w-7xl lg:max-w-5xl md:max-w-2xl sm:max-w-lg">
-        <SecondaryAnimation x={400}>
+        <SecondaryAnimation x={400} time={0.4}>
           <div className="mb-16">
             <h1 className="font-semibold text-3xl mb-3">Proyecto GC</h1>
             <p>
@@ -33,7 +33,7 @@ export default function Somos() {
           </div>
         </SecondaryAnimation>
         <div>
-          <SecondaryAnimation x={-400}>
+          <SecondaryAnimation x={-400} time={0.4}>
             <div className="flex flex-wrap mb-4 -mx-4">
               <Image
                 className="w-full lg:w-1/3 px-4 hidden lg:block"
