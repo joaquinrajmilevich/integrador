@@ -22,7 +22,11 @@ export default function Somos() {
       </section>
       <section className="md:px-6 px-0 mx-auto overflow:hidden xl:max-w-7xl lg:max-w-4xl md:max-w-3xl sm:max-w-lg">
         <div className="flex justify-center items-center mb-4 ">
-          <Image src={Images.gc} className="w-24 me-16 hidden md:block" />
+          <Image
+            src={Images.gc}
+            className="w-24 me-16 hidden md:block"
+            alt="decoration"
+          />
           <h2 className=" text-3xl font-semibold text-center text-black">
             Nuestros Valores
           </h2>
@@ -97,7 +101,11 @@ export default function Somos() {
             </p>
           </div>
           <div className="w-full md:w-1/3 px-3 pb-6 flex justify-center items-center">
-            <Image src={Images.gc} className="w-24 hidden md:block" />
+            <Image
+              src={Images.gc}
+              className="w-24 hidden md:block"
+              alt="decoration"
+            />
           </div>
           <div className="w-full md:w-1/3 px-3 pb-6">
             <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
@@ -110,7 +118,11 @@ export default function Somos() {
             </p>
           </div>
           <div className="w-full  md:w-1/3 px-3 pb-6 flex justify-center items-center">
-            <Image src={Images.gc} className="w-24 hidden md:block" />
+            <Image
+              src={Images.gc}
+              className="w-24 hidden md:block"
+              alt="decoration"
+            />
           </div>
         </div>
       </section>

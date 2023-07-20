@@ -23,6 +23,7 @@ export default function Inscripciones() {
           <Image
             src={Images.aplaudiendo}
             className="hidden sm:block rounded-b-xl"
+            alt="aplaudiendo"
           ></Image>
         </div>
         <div className="flex flex-col sm:w-[50vw] gap-2 ">
@@ -31,7 +32,7 @@ export default function Inscripciones() {
               Para comenzar el proceso de inscripción deben completar el
               siguiente formulario
             </h2>
-            <Image src={Images.gc} className="w-20"></Image>
+            <Image src={Images.gc} className="w-20" alt="decoration"></Image>
           </div>
           <form className="flex flex-col gap-1">
             <div className="mb-3 flex flex-col gap-2">

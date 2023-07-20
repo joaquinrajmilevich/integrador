@@ -12,6 +12,7 @@ export default function MainImage({ children = "", srcImg }) {
         }}
         quality={100}
         priority={true}
+        alt="Main Image"
       />
       {children}
     </div>

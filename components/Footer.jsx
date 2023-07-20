@@ -15,7 +15,11 @@ export default function Footer() {
             <li>Provincia de Buenos Aires</li>
             <li>Tel. (54)5277 0815</li>
             <li>info@proyectogc.org</li>
-            <Image src={slogan} className="bg-white rounded-2xl" />
+            <Image
+              src={slogan}
+              className="bg-white rounded-2xl"
+              alt="Trabajamos por una gran causa"
+            />
           </ul>
         </div>
         <div className="flex flex-col w-[50vw]">

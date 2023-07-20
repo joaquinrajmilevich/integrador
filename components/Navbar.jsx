@@ -17,7 +17,7 @@ export default function Navbar() {
             <div className="flex items-center">
               <div className="flex-s hrink-0">
                 <Link href={"/home"}>
-                  <Image src={logo} width={50} height={54} />
+                  <Image src={logo} width={50} height={54} alt="logo" />
                 </Link>
               </div>
               <div className="hidden md:block">

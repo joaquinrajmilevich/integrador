@@ -34,7 +34,7 @@ export default function Home() {
           }}
           className="w-24 max-md:hidden self-center -ms-28"
         >
-          <Image src={Images.gc} />
+          <Image src={Images.gc} alt="decoration" />
         </motion.div>
         <div className="text-2xl text-center lg:w-[55%] md:w-[65%] mb-6">
           <h3 className="my-2 ">GC es una organización sin fines de lucro</h3>
