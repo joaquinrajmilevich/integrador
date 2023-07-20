@@ -16,7 +16,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
               <div className="flex-s hrink-0">
-                <Link href={"/home"}>
+                <Link href={"/home"} aria-label="home">
                   <Image src={logo} width={50} height={54} alt="logo" />
                 </Link>
               </div>
@@ -27,6 +27,7 @@ export default function Navbar() {
                     target="_blank"
                     className="flex self-center"
                     href={"https://www.instagram.com/"}
+                    aria-label="Instagram"
                   >
                     <svg
                       whileHover={{ scale: 0.7, rotate: 25 }}

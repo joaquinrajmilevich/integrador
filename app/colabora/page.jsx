@@ -223,6 +223,7 @@ export default function Colabora() {
               target="_blank"
               className="flex w-20"
               href={"https://www.instagram.com/francolapinto/"}
+              aria-label="Instagram"
             >
               <motion.svg
                 whileHover={{ scale: 0.7, rotate: 25 }}
@@ -241,6 +242,7 @@ export default function Colabora() {
               target="_blank"
               className="flex w-20"
               href={"https://twitter.com/Nanosecso"}
+              aria-label="Twitter"
             >
               <motion.svg
                 whileHover={{ scale: 0.7, rotate: 25 }}
@@ -259,6 +261,7 @@ export default function Colabora() {
               target="_blank"
               className="flex w-20"
               href={"https://www.tiktok.com/@fernandoalonso"}
+              aria-label="tiktok"
             >
               <motion.svg
                 whileHover={{ scale: 0.7, rotate: 25 }}
