@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Proyecto GC</title>
-        <meta name="home"></meta>
+        <meta name="description" content="home" />
       </head>
       <body className={font.className}>
         <Navbar />
