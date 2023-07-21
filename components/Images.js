@@ -13,7 +13,6 @@ import jugando1md from "@/public/jugando-1-md.jpg";
 import jugandosm from "@/public/jugando-sm.jpg";
 import levantandomanossm from "@/public/levantando-manos-sm.jpg";
 import levantandomanos from "@/public/levantando-manos.jpg";
-
 import logoGC from "@/public/logoGC.png";
 import logoGC175x178 from "@/public/logoGC175x178.png";
 import proyectoheadermd from "@/public/proyecto-header-md.jpg";
