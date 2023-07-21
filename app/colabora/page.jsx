@@ -11,7 +11,7 @@ export default function Colabora() {
   return (
     <main className="bg-white text-black">
       <SecondaryAnimation y={-100}>
-        <section className="relative flex flex-col justify-center sm:items-end h-[300px] sm:h-[400px] mb-3">
+        <section className="relative flex flex-col justify-center sm:items-end h-[300px] mb-3">
           <MainImage srcImg={Images.donarlg}>
             <DefaultAnimation>
               <div className="sm:self-end self-center relative py-3 text-center mb-8 sm:me-20 mx-4 text-white bg-green-secondary rounded-lg sm:w-[400px]">
