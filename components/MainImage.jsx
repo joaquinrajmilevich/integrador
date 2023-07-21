@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-export default function MainImage({ children = "", srcImg }) {
-  return (
-    <>
+export default function MainImage({ children, srcImg }) {
+  const Img = () => {
+    return (
       <Image
         src={srcImg}
         fill
@@ -12,6 +12,11 @@ export default function MainImage({ children = "", srcImg }) {
         className="transition-opacity opacity-0 duration-[0.3s] object-cover"
         onLoadingComplete={(image) => image.classList.remove("opacity-0")}
       />
+    );
+  };
+  return (
+    <>
+      <Img />
       {children}
     </>
   );

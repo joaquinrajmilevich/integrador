@@ -36,7 +36,6 @@ export default function Slider() {
           alt={`Image-${index}`}
           width={400}
           height={300}
-          priority={true}
           quality={65}
         />
       </div>
