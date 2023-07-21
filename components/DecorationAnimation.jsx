@@ -11,7 +11,7 @@ export default function DecorationAnimation({ children }) {
         x: 0,
       }}
       transition={{
-        duration: 1,
+        duration: 0.6,
         ease: "easeInOut",
       }}
       className="w-24 max-md:hidden self-center -ms-28"

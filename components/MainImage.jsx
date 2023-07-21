@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-export default function MainImage({ children = "", srcImg, blur = false }) {
+export default function MainImage({ children = "", srcImg }) {
   return (
     <div>
       <Image
@@ -10,10 +10,11 @@ export default function MainImage({ children = "", srcImg, blur = false }) {
         style={{
           objectFit: "cover",
         }}
-        quality={100}
+        quality={80}
         priority={true}
         alt="Main Image"
-        className={blur ? "blur-md sm:blur-0" : ""}
+        className="transition-opacity opacity-0 duration-[0.3s]"
+        onLoadingComplete={(image) => image.classList.remove("opacity-0")}
       />
       {children}
     </div>

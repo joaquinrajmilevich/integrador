@@ -8,7 +8,7 @@ export default function Somos() {
       <SecondaryAnimation y={-100}>
         <section className="relative flex flex-col justify-center items-center sm:items-start sm:mx-auto h-[300px] sm:h-[400px] mb-3">
           <MainImage srcImg={Images.actividadeslg}>
-            <div className="md:self-start relative text-center sm:ms-8 mb-2 w-[60vw] mt-9 sm:pt-5 pt-2 bg-blue-secondary rounded-xl">
+            <div className="md:self-start relative text-center sm:ms-8 mb-2 w-[50vw] mt-9 sm:pt-5 pt-2 bg-blue-secondary rounded-xl">
               <h1 className="text-2xl sm:text-5xl font-semibold ">
                 <span className="py-1 sm:px-4 ">Misión</span>
               </h1>
