@@ -11,7 +11,7 @@ export default function MainImage({ children = "", srcImg }) {
           objectFit: "cover",
         }}
         quality={80}
-        priority={true}
+        priority
         alt="Main Image"
         className="transition-opacity opacity-0 duration-[0.3s]"
         onLoadingComplete={(image) => image.classList.remove("opacity-0")}
