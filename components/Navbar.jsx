@@ -11,7 +11,7 @@ export default function Navbar() {
   };
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50 ">
-      <div className="w-full mx-auto px-8 sm:px-6 md:px-8">
+      <div className="w-full mx-auto px-8 sm:px-6 md:px-2">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <div className="flex-s hrink-0">
@@ -20,7 +20,7 @@ export default function Navbar() {
               </Link>
             </div>
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
+              <div className="ml-10 md:ml-4 lg:ml-10 flex items-baseline space-x-4">
                 <NavLinks />
                 <Link
                   target="_blank"
