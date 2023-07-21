@@ -4,12 +4,12 @@ import slogan from "@/public/logoGC_slogan.webp";
 export default function Footer() {
   return (
     <footer className="bg-slate-700">
-      <div className="flex flex-row justify-center text-white py-10 gap-7 mx-16">
-        <div className="flex flex-col w-[50vw]">
+      <div className="flex flex-col sm:flex-row justify-center text-white py-10 gap-7 mx-16">
+        <div className="flex flex-col sm:w-[50vw]">
           <h4 className="text-2xl mx-auto font-semibold py-2 bg-green-secondary rounded-xl w-full ps-3 mb-3">
             Escribinos
           </h4>
-          <ul className="ps-10">
+          <ul className="sm:ps-10">
             <li>Manzoni 1360,</li>
             <li>Gonzalez Catán</li>
             <li>Provincia de Buenos Aires</li>
@@ -22,7 +22,7 @@ export default function Footer() {
             />
           </ul>
         </div>
-        <div className="flex flex-col w-[50vw]">
+        <div className="flex flex-col sm:w-[50vw]">
           <form className="flex flex-col gap-1">
             <div className="mb-3 flex flex-col gap-2">
               <label htmlFor="name">Nombre</label>

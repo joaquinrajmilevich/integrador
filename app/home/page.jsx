@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="bg-white text-black">
       <SecondaryAnimation y={-100}>
-        <section className="relative flex flex-col justify-end lg:items-end sm:mx-auto h-[400px] mb-3">
+        <section className="relative flex flex-col justify-end lg:items-end sm:mx-auto h-[300px] sm:h-[400px] mb-3">
           <MainImage srcImg={Images.homelg}>
             <DefaultAnimation>
               <div className="md:self-end mx-auto sm:self-center relative py-3 text-center mb-8 md:me-6 text-white bg-green-secondary rounded-lg sm:w-[400px]">
@@ -19,7 +19,7 @@ export default function Home() {
             </DefaultAnimation>
           </MainImage>
         </section>
-        <section className="flex flex-row justify-center gap-6 ">
+        <section className="flex flex-row justify-center gap-6 mx-3 sm:mx-0">
           <DecorationAnimation>
             <Image src={Images.gc} alt="decoration" />
           </DecorationAnimation>

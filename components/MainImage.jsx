@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-export default function MainImage({ children = "", srcImg }) {
+export default function MainImage({ children = "", srcImg, blur = false }) {
   return (
     <div>
       <Image
@@ -13,6 +13,7 @@ export default function MainImage({ children = "", srcImg }) {
         quality={100}
         priority={true}
         alt="Main Image"
+        className={blur ? "blur-md sm:blur-0" : ""}
       />
       {children}
     </div>

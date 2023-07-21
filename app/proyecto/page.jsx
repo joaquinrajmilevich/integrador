@@ -7,10 +7,10 @@ export default function Somos() {
   return (
     <main className="bg-white pb-4 overflow-hidden">
       <SecondaryAnimation y={-100}>
-        <section className="relative h-[400px] mb-12">
+        <section className="relative h-[300px] sm:h-[400px] mb-12">
           <MainImage srcImg={Images.proyectoheadermd} />
         </section>
-        <section className="text-black mx-auto xl:max-w-7xl lg:max-w-5xl md:max-w-2xl sm:max-w-lg">
+        <section className="text-black mx-3 sm:mx-auto xl:max-w-7xl lg:max-w-5xl md:max-w-2xl sm:max-w-lg">
           <SecondaryAnimation x={400} time={0.4}>
             <div className="mb-16">
               <h1 className="font-semibold text-3xl mb-3">Proyecto GC</h1>

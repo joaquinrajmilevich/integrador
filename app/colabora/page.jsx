@@ -11,7 +11,7 @@ export default function Colabora() {
   return (
     <main className="bg-white text-black">
       <SecondaryAnimation y={-100}>
-        <section className="relative flex flex-col justify-center sm:items-end h-[300px] mb-3">
+        <section className="relative flex flex-col justify-center sm:items-end h-[300px] sm:h-[400px] mb-3">
           <MainImage srcImg={Images.donarlg}>
             <DefaultAnimation>
               <div className="sm:self-end self-center relative py-3 text-center mb-8 sm:me-20 mx-4 text-white bg-green-secondary rounded-lg sm:w-[400px]">
@@ -24,9 +24,9 @@ export default function Colabora() {
         </section>
 
         <section className="flex flex-row justify-center gap-6 py-12">
-          <div className="flex flex-col items-center font-semibold text-4xl text-center lg:w-[55%] md:w-[65%] w-[60%] mb-6 sm:gap-10 gap-0">
+          <div className="flex flex-col items-center font-semibold text-4xl text-center lg:w-[55%] md:w-[65%] w-[60%] sm:mb-10 sm:gap-10 gap-0">
             <h3 className="mb-10">¡Apoya a Proyecto GC y cambia vidas!</h3>
-            <div className="flex flex-col sm:flex-row justify-center gap-10">
+            <div className="flex flex-col lg:flex-row justify-center gap-10">
               <ModalButton
                 child1={"Haz una donación"}
                 child2={"Ayudanos a seguir adelante"}
@@ -46,7 +46,7 @@ export default function Colabora() {
                 type={"button-reverse"}
               ></ModalButton>
             </div>
-            <h3 className="mb-2 py-2 mt-4 sm:mt-0 text-2xl font-medium bg-blue-secondary rounded-md text-white">
+            <h3 className="py-2 mt-10 sm:mt-0 text-2xl font-medium bg-blue-secondary rounded-md text-white">
               Conviértete en socio o realiza una donación hoy mismo. Tu
               generosidad nos permite llevar esperanza y oportunidades a quienes
               más lo necesitan. ¡Haz parte de nuestro impacto positivo y crea un
@@ -136,7 +136,7 @@ export default function Colabora() {
                         className="rounded-md py-2 ps-2 border-2 basic-input"
                       />
                     </div>
-                    <div className=" radio border-0 flex justify-center my-auto items-center px-12">
+                    <div className=" radio border-0 flex justify-center my-auto items-center px-10 sm:px-12">
                       <input
                         name="answer"
                         type="radio"
@@ -145,8 +145,8 @@ export default function Colabora() {
                         value="A"
                       />
                       <label
-                        for="A1"
-                        className="flex justify-center w-full py-2 px-12 rounded-md bg-black"
+                        htmlFor="A1"
+                        className="flex justify-center w-full py-2 px-10 sm:px-12 rounded-md bg-black"
                       >
                         <span>$15</span>
                       </label>
@@ -162,7 +162,7 @@ export default function Colabora() {
                         className="rounded-md py-2 ps-2 border-2 basic-input"
                       />
                     </div>
-                    <div className="radio border-0 flex justify-center my-auto items-center px-12">
+                    <div className="radio border-0 flex justify-center my-auto items-center px-10 sm:px-12">
                       <input
                         name="answer"
                         type="radio"
@@ -171,8 +171,8 @@ export default function Colabora() {
                         value="B"
                       />
                       <label
-                        for="B1"
-                        className=" flex justify-center w-full py-2 px-12 rounded-md bg-black"
+                        htmlFor="B1"
+                        className=" flex justify-center w-full py-2 px-10 sm:px-12 rounded-md bg-black"
                       >
                         <span>$25</span>
                       </label>
@@ -188,7 +188,7 @@ export default function Colabora() {
                         className="rounded-md py-2 ps-2 border-2 basic-input"
                       />
                     </div>
-                    <div className="radio border-0 flex justify-center my-auto items-center px-12">
+                    <div className="radio border-0 flex justify-center my-auto items-center px-10 sm:px-12">
                       <input
                         name="answer"
                         type="radio"
@@ -197,8 +197,8 @@ export default function Colabora() {
                         value="C"
                       />
                       <label
-                        for="C1"
-                        className=" flex justify-center w-full py-2 px-12 rounded-md bg-black"
+                        htmlFor="C1"
+                        className=" flex justify-center w-full py-2 px-10 sm:px-12 rounded-md bg-black"
                       >
                         <span>$50</span>
                       </label>
