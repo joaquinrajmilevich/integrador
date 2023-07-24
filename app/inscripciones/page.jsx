@@ -2,6 +2,10 @@ import Image from "next/image";
 import DropDown from "@/components/Dropdown";
 import Images from "@/components/Images";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
+export const metadata = {
+  title: "Inscripciones / ProyectoGC",
+  description: "inscripciones",
+};
 export default function Inscripciones() {
   return (
     <main className="bg-white text-black ">

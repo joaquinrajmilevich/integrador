@@ -3,6 +3,10 @@ import Image from "next/image";
 import Slider from "./Slider";
 import Images from "@/components/Images";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
+export const metadata = {
+  title: "Actividades / ProyectoGC",
+  description: "actividades",
+};
 export default function Somos() {
   return (
     <main className="bg-white pb-4">

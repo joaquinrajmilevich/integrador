@@ -11,16 +11,16 @@ export default function Navbar() {
   };
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50 ">
-      <div className="w-full mx-auto px-8 sm:px-6 md:px-2">
+      <div className="w-full mx-auto px-8 sm:px-6">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
-            <div className="flex-s hrink-0">
+            <div className="">
               <Link href={"/home"} aria-label="home">
-                <Image src={logo} width={50} height={54} alt="logo" />
+                <Image src={logo} height={54} alt="logo" />
               </Link>
             </div>
-            <div className="hidden md:block">
-              <div className="ml-10 md:ml-4 lg:ml-10 flex items-baseline space-x-4">
+            <div className="hidden min-[826px]:block">
+              <div className="ml-10 md:ml-6 flex items-baseline space-x-4">
                 <NavLinks />
                 <Link
                   target="_blank"
@@ -50,7 +50,7 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <div className="flex md:hidden">
+          <div className="flex min-[826px]:hidden">
             <button
               onClick={toggleMenu}
               type="button"

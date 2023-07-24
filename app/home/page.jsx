@@ -5,6 +5,10 @@ import MainImage from "@/components/MainImage";
 import Images from "@/components/Images";
 import DecorationAnimation from "@/components/DecorationAnimation";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
+export const metadata = {
+  title: "ProyectoGC",
+  description: "Home",
+};
 export default function Home() {
   return (
     <main className="bg-white text-black">

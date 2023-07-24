@@ -2,6 +2,10 @@ import MainImage from "@/components/MainImage";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 import Image from "next/image";
 import Images from "@/components/Images";
+export const metadata = {
+  title: "Somos / ProyectoGC",
+  description: "somos",
+};
 export default function Somos() {
   return (
     <main className="bg-white text-white pb-4">
