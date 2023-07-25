@@ -127,7 +127,7 @@ export default function Colabora() {
             <div className="flex flex-col justify-between py-3 gap-3">
               <div className="flex flex-row justify-between gap-4">
                 <div className="flex flex-col gap-2 w-full">
-                  <div className="flex flex-row gap-5">
+                  <div className="flex flex-row sm:gap-5 gap-3">
                     <div className="flex flex-col w-3/4">
                       <input
                         type="text"
@@ -137,7 +137,7 @@ export default function Colabora() {
                         className="rounded-md py-2 ps-2 border-2 basic-input"
                       />
                     </div>
-                    <div className=" radio border-0 flex justify-center my-auto items-center px-10 sm:px-12">
+                    <div className=" radio border-0 flex justify-between my-auto items-center">
                       <input
                         name="answer"
                         type="radio"
@@ -147,13 +147,13 @@ export default function Colabora() {
                       />
                       <label
                         htmlFor="A1"
-                        className="flex justify-center w-full py-2 px-10 sm:px-12 rounded-md bg-black"
+                        className="flex justify-center min-w-[70px] py-2 rounded-md bg-black"
                       >
                         <span>$15</span>
                       </label>
                     </div>
                   </div>
-                  <div className="flex flex-row gap-5">
+                  <div className="flex flex-row sm:gap-5 gap-3">
                     <div className="flex flex-col w-3/4">
                       <input
                         type="text"
@@ -163,7 +163,7 @@ export default function Colabora() {
                         className="rounded-md py-2 ps-2 border-2 basic-input"
                       />
                     </div>
-                    <div className="radio border-0 flex justify-center my-auto items-center px-10 sm:px-12">
+                    <div className="radio border-0 flex justify-between my-auto items-center">
                       <input
                         name="answer"
                         type="radio"
@@ -173,13 +173,13 @@ export default function Colabora() {
                       />
                       <label
                         htmlFor="B1"
-                        className=" flex justify-center w-full py-2 px-10 sm:px-12 rounded-md bg-black"
+                        className=" flex justify-center min-w-[70px] py-2  rounded-md bg-black"
                       >
                         <span>$25</span>
                       </label>
                     </div>
                   </div>
-                  <div className="flex flex-row gap-5">
+                  <div className="flex flex-row sm:gap-5 gap-3">
                     <div className="flex flex-col w-3/4">
                       <input
                         type="email"
@@ -189,7 +189,7 @@ export default function Colabora() {
                         className="rounded-md py-2 ps-2 border-2 basic-input"
                       />
                     </div>
-                    <div className="radio border-0 flex justify-center my-auto items-center px-10 sm:px-12">
+                    <div className="radio border-0 flex justify-between my-auto items-center">
                       <input
                         name="answer"
                         type="radio"
@@ -199,7 +199,7 @@ export default function Colabora() {
                       />
                       <label
                         htmlFor="C1"
-                        className=" flex justify-center w-full py-2 px-10 sm:px-12 rounded-md bg-black"
+                        className=" flex justify-center min-w-[70px] py-2 rounded-md bg-black"
                       >
                         <span>$50</span>
                       </label>
