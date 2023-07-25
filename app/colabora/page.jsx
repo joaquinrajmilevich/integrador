@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function Colabora() {
   return (
-    <main className="bg-white text-black">
+    <main>
       <SecondaryAnimation y={-100}>
         <section className="relative flex flex-col justify-center sm:items-end h-[300px] mb-3">
           <MainImage srcImg={Images.donarlg}>
@@ -47,7 +47,7 @@ export default function Colabora() {
                 type={"button-reverse"}
               ></ModalButton>
             </div>
-            <h3 className="py-2 mt-10 sm:mt-0 text-2xl font-medium bg-blue-secondary rounded-md text-white">
+            <h3 className="py-2 mt-10 sm:mt-0 text-2xl font-medium bg-blue-accent rounded-md text-white">
               Conviértete en socio o realiza una donación hoy mismo. Tu
               generosidad nos permite llevar esperanza y oportunidades a quienes
               más lo necesitan. ¡Haz parte de nuestro impacto positivo y crea un

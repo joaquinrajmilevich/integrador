@@ -11,14 +11,14 @@ export const metadata = {
 };
 export default function Home() {
   return (
-    <main className="bg-white text-black">
+    <main className="">
       <SecondaryAnimation y={-100}>
-        <section className="relative flex flex-col justify-end lg:items-end sm:mx-auto h-[300px] sm:h-[400px] mb-3">
+        <section className="relative flex flex-col justify-end sm:items-end sm:mx-auto h-[300px] sm:h-[400px] mb-3]">
           <MainImage srcImg={Images.homelg}>
             <DefaultAnimation>
-              <div className="md:self-end mx-auto sm:self-center relative py-3 text-center mb-8 md:me-6 text-white bg-green-secondary rounded-lg sm:w-[400px]">
-                <h2 className="text-3xl font-semibold ">Trabajamos</h2>
-                <p className="">por una gran causa</p>
+              <div className="sm:text-5xl text-xl font-bold md:self-end mx-16 sm:self-center relative py-2 text-center sm:mb-8 mb-24 md:me-6 bg-green-secondary text-white  rounded-md sm:w-[500px] ">
+                <h2 className="">Trabajamos</h2>
+                <p className="font-medium ">por una gran causa</p>
               </div>
             </DefaultAnimation>
           </MainImage>
@@ -29,7 +29,7 @@ export default function Home() {
           </DecorationAnimation>
           <div className="text-2xl text-center lg:w-[55%] md:w-[65%] mb-6">
             <h3 className="my-2 ">GC es una organización sin fines de lucro</h3>
-            <h3 className="mb-2 py-2 bg-blue-secondary rounded-md text-white">
+            <h3 className="mb-2 py-2 bg-secondary text-white font-medium rounded-md ">
               que trabaja para promover el desarrollo integral de niños, niñas y
               adolescentes a través de la educación
             </h3>
@@ -41,14 +41,14 @@ export default function Home() {
           </div>
         </section>
         <DefaultAnimation>
-          <div className="w-fit mx-auto rounded-md bg-slate-200 pb-6 pt-3 shadow-lg">
+          <div className="w-fit mx-auto rounded-md bg-base-200 pb-6 pt-3 shadow-xl">
             <div className="flex flex-row justify-center items-center text-center text-2xl font-semibold max-sm:flex-col sm:gap-8">
               <Axis width="200px" />
             </div>
           </div>
         </DefaultAnimation>
         <section className="flex flex-col justify-center items-center mt-14">
-          <h1 className="text-center font-semibold text-3xl mb-4 drop-shadow-lg">
+          <h1 className="text-center font-semibold text-5xl mb-4 drop-shadow-lg">
             Proyecto GC
           </h1>
           <iframe

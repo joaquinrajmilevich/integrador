@@ -5,22 +5,25 @@ import Image from "next/image";
 import NavLinks from "../components/NavLinks";
 import logo from "@/public/logoGC175x178.png";
 export default function Navbar() {
-  const [isMenuOpen, setMenuOpen] = useState(false);
+  let [isMenuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
+  const closeMenu = () => {
+    setMenuOpen((isMenuOpen = false));
+  };
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50 ">
-      <div className="w-full mx-auto px-8 sm:px-6">
-        <div className="flex items-center justify-between h-20">
+    <nav className="bg-base-100  shadow-md sticky top-0 z-50 ">
+      <div className="w-full mx-auto px-6">
+        <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="">
-              <Link href={"/home"} aria-label="home">
+              <Link href={"/home"} aria-label="home" onClick={closeMenu}>
                 <Image src={logo} height={54} alt="logo" />
               </Link>
             </div>
-            <div className="hidden min-[826px]:block">
-              <div className="ml-10 md:ml-6 flex items-baseline space-x-4">
+            <div className="hidden min-[848px]:block">
+              <div className="ml-10 md:ml-6 flex items-baseline space-x-1">
                 <NavLinks />
                 <Link
                   target="_blank"
@@ -50,11 +53,11 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <div className="flex min-[826px]:hidden">
+          <div className="flex min-[848px]:hidden">
             <button
               onClick={toggleMenu}
               type="button"
-              className="bg-white inline-flex items-center justify-center p-2 rounded-md text-green-600  hover:bg-blue-200"
+              className="inline-flex items-center justify-center p-2 rounded-md text-green-600  hover:bg-blue-200"
             >
               {!isMenuOpen ? (
                 <svg
@@ -96,10 +99,10 @@ export default function Navbar() {
       <div
         className={`${
           isMenuOpen ? "max-h-52" : "max-h-0 invisible"
-        } md:hidden transition-all duration-500 ease-in-out overflow-hidden`}
+        } min-[848px]:hidden transition-all duration-500 ease-in-out overflow-hidden`}
       >
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <NavLinks />
+        <div className="pt-2 pb-3 space-y-1 px-3">
+          <NavLinks onClick={closeMenu} />
         </div>
       </div>
     </nav>

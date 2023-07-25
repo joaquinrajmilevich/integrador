@@ -9,12 +9,12 @@ export const metadata = {
 };
 export default function Somos() {
   return (
-    <main className="bg-white pb-4">
+    <main className="font-medium pb-4">
       <SecondaryAnimation y={-100}>
         <section className="relative h-[300px] sm:h-[400px] mb-3 ">
           <MainImage srcImg={Images.actividadeslg} />
         </section>
-        <section className="text-black mx-3 sm:mx-auto xl:max-w-7xl lg:max-w-4xl md:max-w-3xl sm:max-w-lg">
+        <section className=" mx-3 sm:mx-auto xl:max-w-7xl lg:max-w-4xl md:max-w-3xl sm:max-w-lg">
           <div className="flex flex-wrap mb-4 -mx-4">
             <Image
               className="w-full lg:w-1/3 rounded-lg px-4 hidden lg:block object-cover h-56"
@@ -24,12 +24,12 @@ export default function Somos() {
             <div className="w-full lg:w-2/3 px-4">
               <div className="">
                 <h1 className="font-semibold text-3xl mb-1">Actividad</h1>
-                <h1 className="font-semibold text-3xl">
-                  <span className="text-white bg-blue-secondary rounded-md px-4">
+                <h1 className="font-semibold text-3xl ">
+                  <span className="text-white bg-blue-accent rounded-md px-4">
                     pedagógica
                   </span>
                 </h1>
-                <p>
+                <p className="pt-1">
                   Creemos que la educación es el medio para que cada persona
                   alcance su máximo potencial. Por eso en GC trabajamos para
                   ayudar a que cada niño, niña y adolescente pueda adquirir
@@ -44,7 +44,7 @@ export default function Somos() {
               </div>
             </div>
           </div>
-          <div className="rounded-md bg-dark-primary pb-6 pt-3 shadow-lg px-10">
+          <div className="rounded-md bg-neutral pb-6 pt-3 shadow-lg px-10">
             <Slider></Slider>
           </div>
 
@@ -58,11 +58,11 @@ export default function Somos() {
               <div className="">
                 <h1 className="font-semibold text-3xl mb-1">Deporte y</h1>
                 <h1 className="font-semibold text-3xl">
-                  <span className="text-white bg-blue-secondary rounded-md px-4">
+                  <span className="text-white bg-blue-accent rounded-md px-4">
                     Recreación
                   </span>
                 </h1>
-                <p>
+                <p className="pt-1">
                   El deporte es una de las mejores escuelas de vida y tienen el
                   poder de transformar conductas negativas en positivas. Es el
                   medio por el cual podemos estimular, enseñar y entrenar

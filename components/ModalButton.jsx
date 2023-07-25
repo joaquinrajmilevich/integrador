@@ -18,7 +18,7 @@ export default function ModalButton({ child1, child2, modalId, type }) {
             damping: 20,
           },
         }}
-        className={`group w-fit  font-medium rounded-md bg-slate-200 pb-6 pt-3 shadow-3xl shadow-blue-secondary modal-${type}`}
+        className={`group w-fit  font-medium rounded-md bg-base-200 text-neutral pb-6 pt-3 shadow-3xl modal-${type}`}
       >
         <motion.div
           whileHover={{ scale: 0.8 }}

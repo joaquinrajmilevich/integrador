@@ -8,26 +8,28 @@ export const metadata = {
 };
 export default function Inscripciones() {
   return (
-    <main className="bg-white text-black ">
+    <main className="font-medium">
       <SecondaryAnimation y={-100}>
-        <div className="text-green-secondary text-5xl text-center font-semibold pt-4">
+        <div className="text-primary text-5xl text-center font-semibold pt-4">
           <h1>Inscripciones</h1>
         </div>
         <div className="flex sm:flex-row justify-center flex-col py-10 sm:gap-7 gap-2 mx-10 sm:mx-auto xl:max-w-[70vw] lg:max-w-[80vw] sm:max-w-[90vw]">
           <div className="flex flex-col sm:w-[50vw]">
-            <div className=" py-2 bg-blue-secondary rounded-t-xl w-full ps-3">
-              <h4 className="text-xl text-white">REQUISITOS DE INSCRIPCIÓN</h4>
+            <div className=" py-2 bg-secondary rounded-t-xl w-full ps-3">
+              <h4 className="text-xl text-base-100">
+                REQUISITOS DE INSCRIPCIÓN
+              </h4>
             </div>
-            <div className="border-x-2 border-b-2 py-2 ps-2">
+            <div className="border-x-2 border-b-2 py-2 ps-2 border-secondary">
               <p>Tener entre 5 y hasta 11 años</p>
             </div>
-            <div className="border-x-2 border-b-2 sm:border-b-0  py-2 ps-2 ">
+            <div className="border-x-2 border-b-2 sm:border-b-0  py-2 ps-2 border-secondary">
               <p>Tener acompañamiento de la familia durante el ciclo lectivo</p>
             </div>
 
             <Image
               src={Images.aplaudiendo}
-              className="hidden sm:block rounded-b-xl"
+              className="hidden sm:block rounded-b-xl "
               alt="aplaudiendo"
             ></Image>
           </div>
@@ -107,7 +109,7 @@ export default function Inscripciones() {
                   name="message"
                   className="rounded-md border-2 py-2 ps-4"
                 ></textarea>
-                <span id="messageHelp" className="text-sm text-slate-500 ">
+                <span id="messageHelp" className="text-sm text-slate-400 ">
                   Contanos en que podemos ayudarte. 200 caracteres
                 </span>
               </div>

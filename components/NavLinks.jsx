@@ -2,7 +2,7 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-export default function NavLinks({ path }) {
+export default function NavLinks({ onClick }) {
   const pathname = usePathname();
   const links = [
     { name: "QUIENES SOMOS", href: "/somos" },
@@ -16,12 +16,12 @@ export default function NavLinks({ path }) {
       {links.map((link) => {
         const isActive = pathname.includes(link.href);
         return (
-          <Link
-            href={link.href}
-            key={link.name}
-            className={isActive ? "text-slate-800" : "text-slate-400"}
-          >
-            <div className=" hover:text-slate-800 x-3 py-2 rounded-md text-md font-semibold">
+          <Link href={link.href} key={link.name} onClick={onClick}>
+            <div
+              className={`w-fit x-3 py-1 px-2 text-md rounded-md font-semibold ${
+                isActive ? "bg-neutral text-white" : "hover:bg-base-200"
+              }`}
+            >
               {link.name}
             </div>
           </Link>

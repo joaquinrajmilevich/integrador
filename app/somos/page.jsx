@@ -8,15 +8,15 @@ export const metadata = {
 };
 export default function Somos() {
   return (
-    <main className="bg-white text-white pb-4">
+    <main className="pb-4">
       <SecondaryAnimation y={-100}>
-        <section className="relative flex flex-col justify-center items-center sm:items-start sm:mx-auto h-[300px] sm:h-[400px] mb-3">
+        <section className="relative flex flex-col justify-center items-center lg:items-start md:mx-auto h-[300px] sm:h-[400px] mb-3">
           <MainImage srcImg={Images.actividadeslg}>
-            <div className="md:self-start relative text-center sm:ms-8 mb-2 w-[50vw] mt-9 sm:pt-5 pt-2 bg-blue-secondary rounded-xl">
-              <h1 className="text-2xl sm:text-5xl font-semibold ">
-                <span className="py-1 sm:px-4 ">Misión</span>
+            <div className="md:self-center text-base-100 relative text-center sm:ms-8 mb-2 md:w-[600px] sm:w-[500px] w-[90vw] mt-9 sm:pt-5 pt-2 bg-blue-accent rounded-xl">
+              <h1 className="text-5xl sm:text-5xl font-bold ">
+                <span className="py-1 sm:px-1 ">Misión</span>
               </h1>
-              <p className="text-sm sm:text-base sm:px-8 px-2 sm:py-5 py-2 sm:leading-7">
+              <p className="text-sm sm:text-xl font-medium sm:px-1 px-2 pb-4 py-2 sm:leading-7">
                 promover el desarrollo integral de los niños, niñas y
                 adolescentes a través de la educación donde trabajamos
               </p>
@@ -30,7 +30,7 @@ export default function Somos() {
               className="w-24 me-16 hidden md:block"
               alt="decoration"
             />
-            <h2 className=" text-3xl font-semibold text-center text-black">
+            <h2 className=" text-4xl font-semibold text-center ">
               Nuestros Valores
             </h2>
             <div className="w-36 hidden md:block"></div>
@@ -38,21 +38,21 @@ export default function Somos() {
           <div className="flex flex-wrap text-center sm:-mx-4">
             <div className=" min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
               <SecondaryAnimation x={200} time={0.4}>
-                <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
+                <h3 className="text-3xl font-semibold py-1 bg-green-secondary text-base-100 rounded-md mb-2">
                   Educación
                 </h3>
               </SecondaryAnimation>
 
-              <p className="text-black">
+              <p className="font-medium">
                 Es la herramienta que permite a las personas, alcanzar su máximo
                 potencial.
               </p>
             </div>
             <div className=" min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
-              <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
+              <h3 className="text-3xl font-semibold py-1 bg-green-secondary text-base-100 rounded-md mb-2">
                 Excelencia
               </h3>
-              <p className="text-black">
+              <p className="font-medium">
                 Emprendemos nuestros proyectos con este principio como base,
                 ofreciendo actividades de calidad. Ellos merecen más que algo
                 bueno, merecen lo mejor.
@@ -60,11 +60,11 @@ export default function Somos() {
             </div>
             <div className=" min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
               <SecondaryAnimation x={-200} time={0.4}>
-                <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
+                <h3 className="text-3xl font-semibold py-1 bg-green-secondary text-base-100 rounded-md mb-2">
                   Transparencia
                 </h3>
               </SecondaryAnimation>
-              <p className="text-black">
+              <p className="font-medium">
                 Ponemos a disposición de nuestros colaboradores toda la
                 información necesaria sobre los recursos utilizados en nuestros
                 proyectos.
@@ -72,11 +72,11 @@ export default function Somos() {
             </div>
             <div className=" min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
               <SecondaryAnimation x={200} time={0.4}>
-                <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
+                <h3 className="text-3xl font-semibold py-1 bg-green-secondary text-base-100 rounded-md mb-2">
                   Empatía
                 </h3>
               </SecondaryAnimation>
-              <p className="text-black">
+              <p className="font-medium">
                 Cada persona es única y merece la mirada apreciativa que los
                 hace dignos como seres humanos. Nuestro equipo
                 interdisciplinario atiende las necesidades, tanto emocionales,
@@ -84,21 +84,21 @@ export default function Somos() {
               </p>
             </div>
             <div className=" min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
-              <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
+              <h3 className="text-3xl font-semibold py-1 bg-green-secondary text-base-100 rounded-md mb-2">
                 Equidad
               </h3>
-              <p className="text-black">
+              <p className="font-medium">
                 Todos tienen el derecho de que se les garanticen los accesos
                 para satisfacer sus necesidades básicas.
               </p>
             </div>
             <div className=" min-[576px]:w-1/2 min-[768px]:w-1/3 px-3 pb-6">
               <SecondaryAnimation x={-200} time={0.4}>
-                <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
+                <h3 className="text-3xl font-semibold py-1 bg-green-secondary text-base-100 rounded-md mb-2">
                   Profesionalismo
                 </h3>
               </SecondaryAnimation>
-              <p className="text-black">
+              <p className="font-medium">
                 Contamos con un equipo de trabajo interdisciplinario que aborda
                 todas las problemáticas desde diferentes enfoques para cumplir
                 con nuestra misión.
@@ -112,10 +112,10 @@ export default function Somos() {
               />
             </div>
             <div className=" md:w-1/3 px-3 pb-6">
-              <h3 className="text-3xl font-semibold py-1 bg-green-secondary rounded-md mb-2">
+              <h3 className="text-3xl font-semibold py-1 bg-green-secondary text-base-100 rounded-md mb-2">
                 Desarrollo integral
               </h3>
-              <p className="text-black">
+              <p className="font-medium">
                 Trabajamos para promover y proveer las oportunidades necesarias
                 para garantizar el crecimiento, el conocimiento y el
                 compañerismo de todos

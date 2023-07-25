@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-export default function MainImage({ children, srcImg }) {
+export default function MainImage({ children, srcImg, classes }) {
   return (
-    <div className="transition-opacity opacity-0 duration-[0.2s]">
+    <div className={`transition-opacity opacity-0 duration-[0.2s] ${classes}`}>
       <Image
         src={srcImg}
         fill

@@ -9,12 +9,12 @@ export const metadata = {
 };
 export default function Somos() {
   return (
-    <main className="bg-white pb-4 overflow-hidden">
+    <main className="font-medium pb-4 overflow-hidden">
       <SecondaryAnimation y={-100}>
         <section className="relative h-[300px] sm:h-[400px] mb-12">
           <MainImage srcImg={Images.proyectoheadermd} />
         </section>
-        <section className="text-black mx-3 sm:mx-auto xl:max-w-7xl lg:max-w-5xl md:max-w-2xl sm:max-w-lg">
+        <section className=" mx-3 sm:mx-auto xl:max-w-7xl lg:max-w-5xl md:max-w-2xl sm:max-w-lg">
           <SecondaryAnimation x={400} time={0.4}>
             <div className="mb-16">
               <h1 className="font-semibold text-3xl mb-3">Proyecto GC</h1>
@@ -29,7 +29,7 @@ export default function Somos() {
                 compañerismo con otros y el desarrollo físico.
               </p>
             </div>
-            <div className="bg-white rounded-lg shadow-3xl mb-4">
+            <div className="bg-neutral text-base-100 rounded-lg shadow-3xl mb-4">
               <h4 className="font-semibold text-2xl text-center py-6 px-8">
                 "El cerebro no es un vaso por llenar, sino una lámpara por
                 encender".
@@ -51,7 +51,7 @@ export default function Somos() {
                       el desarrollo integral de los niños y adolescentes, Los
                       proyectos de GC se basan en tres ejes:
                     </p>
-                    <div className="flex md:flex-row justify-center mx-auto items-center text-center font-semibold flex-col lg:gap-12 gap-0">
+                    <div className="flex text-xl md:flex-row justify-center mt-3 md:mt-8 mx-auto items-center text-center font-semibold flex-col lg:gap-12 gap-0">
                       <Axis></Axis>
                     </div>
                   </div>
