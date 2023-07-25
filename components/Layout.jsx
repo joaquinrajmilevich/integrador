@@ -3,7 +3,7 @@ import { usePathname } from "next/navigation";
 import Footer from "./Footer";
 const Layout = () => {
   const pathname = usePathname();
-  const shouldRender = pathname !== "/inscripciones";
+  const shouldRender = pathname !== "/integrador/inscripciones";
   return <>{shouldRender ? <Footer /> : <></>}</>;
 };
 
