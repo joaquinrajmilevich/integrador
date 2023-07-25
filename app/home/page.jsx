@@ -2,7 +2,7 @@ import Image from "next/image";
 import Axis from "@/components/Axis";
 import DefaultAnimation from "@/components/DefaultAnimation";
 import MainImage from "@/components/MainImage";
-import Images from "@/components/Images";
+import Images from "@/helpers/Images";
 import DecorationAnimation from "@/components/DecorationAnimation";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 export const metadata = {

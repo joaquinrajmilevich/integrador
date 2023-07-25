@@ -2,7 +2,7 @@ import MainImage from "@/components/MainImage";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 import Image from "next/image";
 import Axis from "@/components/Axis";
-import Images from "@/components/Images";
+import Images from "@/helpers/Images";
 export const metadata = {
   title: "Proyecto / ProyectoGC",
   description: "proyecto",

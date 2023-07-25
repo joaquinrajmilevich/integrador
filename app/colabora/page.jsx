@@ -1,7 +1,7 @@
 import DefaultAnimation from "@/components/DefaultAnimation";
 import MainImage from "@/components/MainImage";
 import ModalButton from "@/components/ModalButton";
-import Images from "@/components/Images";
+import Images from "@/helpers/Images";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 import MediaLinks from "@/components/MediaLinks";
 export const metadata = {

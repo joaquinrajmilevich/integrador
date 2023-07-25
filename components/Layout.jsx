@@ -1,8 +1,7 @@
 "use client";
 import { usePathname } from "next/navigation";
 import Footer from "./Footer";
-import { useEffect } from "react";
-const Layout = ({ children }) => {
+const Layout = () => {
   const pathname = usePathname();
   const shouldRender = pathname !== "/inscripciones";
   return <>{shouldRender ? <Footer /> : <></>}</>;

@@ -1,7 +1,7 @@
 import MainImage from "@/components/MainImage";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 import Image from "next/image";
-import Images from "@/components/Images";
+import Images from "@/helpers/Images";
 export const metadata = {
   title: "Somos / ProyectoGC",
   description: "somos",

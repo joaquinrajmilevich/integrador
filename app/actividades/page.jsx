@@ -1,7 +1,7 @@
 import MainImage from "@/components/MainImage";
 import Image from "next/image";
-import Slider from "./Slider";
-import Images from "@/components/Images";
+import Slider from "@/components/Slider";
+import Images from "@/helpers/Images";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 export const metadata = {
   title: "Actividades / ProyectoGC",

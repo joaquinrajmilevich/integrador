@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
-import "./styles.css";
+import "../app/globals.css";
 import React, { useCallback, useEffect, useState } from "react";
-import Images from "@/components/Images";
+import Images from "@/helpers/Images";
 export default function Slider() {
   const sources = [
     Images.aprendiendosm,

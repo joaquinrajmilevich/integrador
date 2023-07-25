@@ -1,6 +1,6 @@
 import Image from "next/image";
 import DropDown from "@/components/Dropdown";
-import Images from "@/components/Images";
+import Images from "@/helpers/Images";
 import SecondaryAnimation from "@/components/SecondaryAnimation";
 export const metadata = {
   title: "Inscripciones / ProyectoGC",
