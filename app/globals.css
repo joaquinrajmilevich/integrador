@@ -80,3 +80,7 @@ select,
 textarea:placeholder {
   color: rgb(0, 0, 0);
 }
+
+main {
+  background-color: #ffffff;
+}
