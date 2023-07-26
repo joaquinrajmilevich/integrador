@@ -14,45 +14,40 @@ export default function Slider() {
     Images.senias1md,
     Images.senias2md,
   ];
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, dragFree: true });
-  const [scrollProgress, setScrollProgress] = useState(0);
-  const onScroll = useCallback((emblaApi) => {
-    const progress = Math.max(0, Math.min(1, emblaApi.scrollProgress()));
-    setScrollProgress(progress * 100);
-  }, []);
-  useEffect(() => {
-    if (!emblaApi) return;
-
-    onScroll(emblaApi);
-    emblaApi.on("reInit", onScroll);
-    emblaApi.on("scroll", onScroll);
-  }, [emblaApi, onScroll]);
+  const [emblaRef] = useEmblaCarousel({ loop: true, dragFree: true });
   const img = () => {
     return sources.map((source, index) => (
       <div className="embla__slide" key={index}>
-        <Image
-          key={index}
-          src={source}
-          alt={`Image-${index}`}
-          width={400}
-          height={300}
-          quality={65}
-        />
+        <Image key={index} src={source} alt={`Image-${index}`} quality={65} />
       </div>
     ));
   };
 
   return (
-    <div className="embla">
+    <div className="embla rounded-box h-[255px] ">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">{img(sources)}</div>
       </div>
-      <div className="embla__progress">
-        <div
-          className="embla__progress__bar"
-          style={{ transform: `translate3d(${scrollProgress}%,0px,0px)` }}
-        />
-      </div>
     </div>
   );
+  // const img = () => {
+  //   return sources.map((source, index) => (
+  //     <div className="carousel-item">
+  //       <Image
+  //         key={index}
+  //         src={source}
+  //         alt={`Image-${index}`}
+  //         width={380}
+  //         height={300}
+  //         quality={65}
+  //         className="rounded-box"
+  //       />
+  //     </div>
+  //   ));
+  // };
+  // return (
+  //   <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
+  //     {img(sources)}
+  //   </div>
+  // );
 }

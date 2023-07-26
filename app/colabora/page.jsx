@@ -124,87 +124,56 @@ export default function Colabora() {
             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
               ✕
             </button>
-            <div className="flex flex-col justify-between py-3 gap-3">
-              <div className="flex flex-row justify-between gap-4">
+            <div className="flex flex-col py-3 gap-3">
+              <div className="flex flex-row gap-4">
                 <div className="flex flex-col gap-2 w-full">
-                  <div className="flex flex-row sm:gap-5 gap-3">
-                    <div className="flex flex-col w-3/4">
-                      <input
-                        type="text"
-                        placeholder="Nombre"
-                        id="name"
-                        name="name"
-                        className="rounded-md py-2 ps-2 border-2 basic-input"
-                      />
-                    </div>
-                    <div className=" radio border-0 flex justify-between my-auto items-center">
-                      <input
-                        name="answer"
-                        type="radio"
-                        id="A1"
-                        hidden="hidden"
-                        value="A"
-                      />
-                      <label
-                        htmlFor="A1"
-                        className="flex justify-center min-w-[70px] py-2 rounded-md bg-black"
-                      >
-                        <span>$15</span>
-                      </label>
-                    </div>
+                  <div className="">
+                    <input
+                      type="text"
+                      placeholder="Nombre"
+                      id="name"
+                      name="name"
+                      className="rounded-md py-3 ps-2 border-2 basic-input w-full"
+                    />
                   </div>
-                  <div className="flex flex-row sm:gap-5 gap-3">
-                    <div className="flex flex-col w-3/4">
-                      <input
-                        type="text"
-                        placeholder="Apellidos"
-                        id="name"
-                        name="name"
-                        className="rounded-md py-2 ps-2 border-2 basic-input"
-                      />
-                    </div>
-                    <div className="radio border-0 flex justify-between my-auto items-center">
-                      <input
-                        name="answer"
-                        type="radio"
-                        id="B1"
-                        hidden="hidden"
-                        value="B"
-                      />
-                      <label
-                        htmlFor="B1"
-                        className=" flex justify-center min-w-[70px] py-2  rounded-md bg-black"
-                      >
-                        <span>$25</span>
-                      </label>
-                    </div>
+                  <div className="">
+                    <input
+                      type="text"
+                      placeholder="Apellidos"
+                      id="name"
+                      name="name"
+                      className="rounded-md py-3 ps-2 border-2 basic-input w-full"
+                    />
                   </div>
-                  <div className="flex flex-row sm:gap-5 gap-3">
-                    <div className="flex flex-col w-3/4">
-                      <input
-                        type="email"
-                        placeholder="Email"
-                        id="email"
-                        name="email"
-                        className="rounded-md py-2 ps-2 border-2 basic-input"
-                      />
-                    </div>
-                    <div className="radio border-0 flex justify-between my-auto items-center">
-                      <input
-                        name="answer"
-                        type="radio"
-                        id="C1"
-                        hidden="hidden"
-                        value="C"
-                      />
-                      <label
-                        htmlFor="C1"
-                        className=" flex justify-center min-w-[70px] py-2 rounded-md bg-black"
-                      >
-                        <span>$50</span>
-                      </label>
-                    </div>
+                  <div className="">
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      id="email"
+                      name="email"
+                      className="rounded-md py-3 ps-2 border-2 basic-input w-full"
+                    />
                   </div>
+                </div>
+                <div className="btn-group flex flex-col gap-3 mt-[2px] checked:bg-primary ">
+                  <input
+                    type="radio"
+                    name="options"
+                    data-title="$15"
+                    className="btn btn-radio"
+                  />
+                  <input
+                    type="radio"
+                    name="options"
+                    data-title="$25"
+                    className="btn btn-radio"
+                  />
+                  <input
+                    type="radio"
+                    name="options"
+                    data-title="$50"
+                    className="btn btn-radio"
+                  />
                 </div>
               </div>
               <button

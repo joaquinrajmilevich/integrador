@@ -44,7 +44,7 @@ export default function Somos() {
               </div>
             </div>
           </div>
-          <div className="rounded-md bg-neutral pb-6 pt-3 shadow-lg px-10">
+          <div className="rounded-box shadow-3xl slider">
             <Slider></Slider>
           </div>
 
