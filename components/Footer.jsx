@@ -31,7 +31,7 @@ export default function Footer() {
                 placeholder="Nombre"
                 id="name"
                 name="name"
-                className="rounded-md py-2 ps-4 "
+                className="rounded-md py-2 ps-4 basic-input"
               />
             </div>
             <div className="mb-3 flex flex-col gap-2">
@@ -41,7 +41,7 @@ export default function Footer() {
                 placeholder="miemail@mail.com"
                 id="email"
                 name="email"
-                className="rounded-md py-2 ps-4"
+                className="rounded-md py-2 ps-4 basic-input"
               />
             </div>
             <div className="mb-3 flex flex-col gap-2">
@@ -49,7 +49,7 @@ export default function Footer() {
               <textarea
                 id="message"
                 name="message"
-                className="rounded-md py-2 ps-4"
+                className="rounded-md py-2 ps-4 basic-input"
               ></textarea>
               <span id="messageHelp" className="text-sm text-slate-300 ">
                 Contanos en que podemos ayudarte. 200 caracteres

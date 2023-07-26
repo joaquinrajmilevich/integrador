@@ -51,7 +51,7 @@ export default function Inscripciones() {
                   placeholder="Nombre y apellido (padre/madre/tutor)"
                   id="nameTutor"
                   name="nameTutor"
-                  className="rounded-md border-2 py-2 ps-4"
+                  className="rounded-md border-2 py-2 ps-4 basic-input"
                 />
               </div>
               <div className="mb-3 flex flex-col gap-2">
@@ -63,7 +63,7 @@ export default function Inscripciones() {
                   placeholder="Nombre Alumno"
                   id="name"
                   name="name"
-                  className="rounded-md border-2 py-2 ps-4"
+                  className="rounded-md border-2 py-2 ps-4 basic-input"
                 />
               </div>
               <div className="mb-3 flex flex-col gap-2">
@@ -75,7 +75,7 @@ export default function Inscripciones() {
                   placeholder="miemail@mail.com*"
                   id="email"
                   name="email"
-                  className="rounded-md border-2 py-2 ps-4"
+                  className="rounded-md border-2 py-2 ps-4 basic-input"
                 />
               </div>
               <div className="mb-3 flex flex-col gap-2">
@@ -87,14 +87,14 @@ export default function Inscripciones() {
                   placeholder="numero de teléfono*"
                   id="number"
                   name="number"
-                  className="rounded-md border-2 py-2 ps-4"
+                  className="rounded-md border-2 py-2 ps-4 basic-input"
                 />
               </div>
               <div className="mb-3 flex flex-col gap-2">
                 <label htmlFor="turn" className="font-bold">
                   Turno
                 </label>
-                <DropDown className="rounded-md border-2 py-2 ps-2">
+                <DropDown className="rounded-md border-2 py-2 ps-2 basic-input">
                   <option value="Option 1">Mañana</option>
                   <option value="Option 2">Tarde</option>
                   <option value="Option 3">Noche</option>
@@ -107,7 +107,7 @@ export default function Inscripciones() {
                 <textarea
                   id="message"
                   name="message"
-                  className="rounded-md border-2 py-2 ps-4"
+                  className="rounded-md border-2 py-2 ps-4 basic-input"
                 ></textarea>
                 <span id="messageHelp" className="text-sm text-slate-400 ">
                   Contanos en que podemos ayudarte. 200 caracteres
