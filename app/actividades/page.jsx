@@ -14,7 +14,7 @@ export default function Somos() {
         <section className="relative h-[300px] sm:h-[400px] mb-3 ">
           <MainImage srcImg={Images.actividadeslg} />
         </section>
-        <section className=" mx-3 sm:mx-auto xl:max-w-7xl lg:max-w-4xl md:max-w-3xl sm:max-w-lg">
+        <section className=" mx-3 sm:mx-auto xl:max-w-7xl lg:max-w-5xl md:max-w-4xl sm:max-w-lg">
           <div className="flex flex-wrap mb-4 -mx-4">
             <Image
               className="w-full lg:w-1/3 rounded-lg px-4 hidden lg:block object-cover h-56"

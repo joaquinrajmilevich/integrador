@@ -18,13 +18,13 @@ export default function Slider() {
   const img = () => {
     return sources.map((source, index) => (
       <div className="embla__slide" key={index}>
-        <Image key={index} src={source} alt={`Image-${index}`} quality={65} />
+        <Image key={index} src={source} alt={`Image-${index}`} width={500} />
       </div>
     ));
   };
 
   return (
-    <div className="embla rounded-box h-[255px] ">
+    <div className="embla rounded-box sm:max-h-[235px] md:max-h-[255px] max-h-[200px] ">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">{img(sources)}</div>
       </div>
