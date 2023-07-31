@@ -11,7 +11,7 @@ export default function Somos() {
   return (
     <main className="font-medium pb-4">
       <SecondaryAnimation y={-100}>
-        <section className="relative h-[300px] sm:h-[400px] mb-3 ">
+        <section className="relative h-[300px] mb-3 ">
           <MainImage srcImg={Images.actividadeslg} />
         </section>
         <section className=" mx-3 sm:mx-auto xl:max-w-7xl lg:max-w-5xl md:max-w-4xl sm:max-w-lg">

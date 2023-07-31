@@ -10,7 +10,7 @@ export default function Somos() {
   return (
     <main className="pb-4">
       <SecondaryAnimation y={-100}>
-        <section className="relative flex flex-col justify-center items-center lg:items-start md:mx-auto h-[300px] sm:h-[400px] mb-3">
+        <section className="relative flex flex-col justify-center items-center lg:items-start md:mx-auto h-[300px] mb-3">
           <MainImage srcImg={Images.actividadeslg}>
             <div className="md:self-center text-base-100 relative text-center sm:ms-8 mb-2 md:w-[600px] sm:w-[500px] w-[90vw] mt-9 sm:pt-5 pt-2 bg-blue-accent rounded-xl">
               <h1 className="text-5xl sm:text-5xl font-bold ">
